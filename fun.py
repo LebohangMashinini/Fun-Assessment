@@ -12,6 +12,23 @@ def dog_years():
     """
 
     #enter your code here
+    user_input = int(input("Enter your age: "))
+    dog_year = 10.5 #human years
+    dog_
+    if user_input > 20:
+        print("Enter a number 20 and below")
+        return
+    if user_input == 1:
+        age_in_dog_years = dog_year * user_input
+        print(f"Dog's age in dog's years {age_in_dog_years}")
+        return
+    if user_input == 2:
+        age_in_dog_years = dog_year * user_input
+        print(f"Dog's age in dog's years {age_in_dog_years}")
+        return
+    elif user_input >= 3:
+        age_in_dog_years = user_input - 
+dog_years()
 
 def fizzbuzz(num):
     pass
@@ -40,14 +57,17 @@ def word_lengths(sentence):
     Output: {'Aunty': 5, 'Yankho': 6, 'is': 2, 'amazing': 7}
     ```
     """
-    user_input = input("Enter a sentence: ")
-    sentence = {user_input}
-    for word in sentence:
-        print(len(word))
-    print(sentence)
+    split_sentence = sentence.split(" ")
+    print(split_sentence)
+    # sentence = {split_sentence}
+    empty = {}
+    for word in split_sentence:
+        empty[word] = len(word)
 
-word_lengths("My favourite artist is Frank Ocean")
+    return empty
 
+print(word_lengths("My favourite artist is Frank Ocean")
+)
 def cube_sum(number):
     pass
     """
