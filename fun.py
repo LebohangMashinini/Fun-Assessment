@@ -1,5 +1,5 @@
 def dog_years():
-    
+    pass
     """
     Create a program that counts a dog's age in dog's years. The program should only calculate dog years until 20 human years.
     Note: For the first two years, a dog year is equal to 10.5 human years. After that, each dog year equals 4 human years.
@@ -14,6 +14,7 @@ def dog_years():
     #enter your code here
 
 def fizzbuzz(num):
+    pass
     """
     Create a program that returns the numbers as a string from 1 to num. 
     But for multiples of three print “Fizz” instead of the number, 
@@ -39,10 +40,16 @@ def word_lengths(sentence):
     Output: {'Aunty': 5, 'Yankho': 6, 'is': 2, 'amazing': 7}
     ```
     """
-    
-    #enter your code here
+    user_input = input("Enter a sentence: ")
+    sentence = {user_input}
+    for word in sentence:
+        print(len(word))
+    print(sentence)
+
+word_lengths("My favourite artist is Frank Ocean")
 
 def cube_sum(number):
+    pass
     """
     Create a program that calculates the sum of the cubes of each digit in a number.
     
